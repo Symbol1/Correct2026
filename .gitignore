@@ -1,2 +1,20 @@
 /van Lint.pdf
 rm25*
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.xdv
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb

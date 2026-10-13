@@ -15,3 +15,4 @@
 - 英文標題大小寫依層級統一：`# GOOD JOB`（全大寫）、`## Good Job`（Title Case）、`### Good job`（Sentence case，以下層級亦同）。Title Case 的冠詞、連接詞與介系詞通常小寫，標題開頭、結尾或冒號後開頭除外；Sentence case 保留專有名詞與縮寫的慣用大小寫。數學公式、程式碼與連結網址保持原樣。
 - LaTeX 數字的千分位分隔符號使用 `{,}`，括號內不加空格，例如 `201{,}000`；一般列舉項目或參數之間的逗號仍依原規則在逗號後留空格。
 - 新建 `.ipynb` 講義時，在講義末尾預留兩個作業 section，依序為 `## 週五作業` 與 `### 週一作業`，之後再補上實際題目內容。
+- 定義 LaTeX 巨集時使用 `\def`，不使用 `\newcommand` 或 `\renewcommand`，例如 `\def\FF{\mathbb F}`。
