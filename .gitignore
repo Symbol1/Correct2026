@@ -1,5 +1,4 @@
 /van Lint.pdf
-rm25*
 
 # LaTeX build files
 *.aux

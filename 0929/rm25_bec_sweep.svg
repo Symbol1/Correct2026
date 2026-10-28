@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+<rect width="100%" height="100%" fill="white"/>
+<style>text { font-family: DejaVu Sans, sans-serif; fill: #17202a; }</style>
+<text x="700" y="48" text-anchor="middle" font-size="30" font-weight="bold">RM(2, 5) randomized erasure decoder on BEC(p)</text>
+<text x="700" y="84" text-anchor="middle" font-size="19">1,000 random weight-8 checks per block; 100,000 trials per p; seed 20260928</text>
+<line x1="140" y1="780.00" x2="1330" y2="780.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="122" y="787.00" text-anchor="end" font-size="18">0.0</text>
+<line x1="140.00" y1="120" x2="140.00" y2="780" stroke="#edf0f2" stroke-width="1"/>
+<text x="140.00" y="815" text-anchor="middle" font-size="18">0.0</text>
+<line x1="140" y1="714.00" x2="1330" y2="714.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="122" y="721.00" text-anchor="end" font-size="18">0.1</text>
+<line x1="259.00" y1="120" x2="259.00" y2="780" stroke="#edf0f2" stroke-width="1"/>
+<text x="259.00" y="815" text-anchor="middle" font-size="18">0.1</text>
+<line x1="140" y1="648.00" x2="1330" y2="648.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="122" y="655.00" text-anchor="end" font-size="18">0.2</text>
+<line x1="378.00" y1="120" x2="378.00" y2="780" stroke="#edf0f2" stroke-width="1"/>
+<text x="378.00" y="815" text-anchor="middle" font-size="18">0.2</text>
+<line x1="140" y1="582.00" x2="1330" y2="582.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="122" y="589.00" text-anchor="end" font-size="18">0.3</text>
+<line x1="497.00" y1="120" x2="497.00" y2="780" stroke="#edf0f2" stroke-width="1"/>
+<text x="497.00" y="815" text-anchor="middle" font-size="18">0.3</text>
+<line x1="140" y1="516.00" x2="1330" y2="516.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="122" y="523.00" text-anchor="end" font-size="18">0.4</text>
+<line x1="616.00" y1="120" x2="616.00" y2="780" stroke="#edf0f2" stroke-width="1"/>
+<text x="616.00" y="815" text-anchor="middle" font-size="18">0.4</text>
+<line x1="140" y1="450.00" x2="1330" y2="450.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="122" y="457.00" text-anchor="end" font-size="18">0.5</text>
+<line x1="735.00" y1="120" x2="735.00" y2="780" stroke="#edf0f2" stroke-width="1"/>
+<text x="735.00" y="815" text-anchor="middle" font-size="18">0.5</text>
+<line x1="140" y1="384.00" x2="1330" y2="384.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="122" y="391.00" text-anchor="end" font-size="18">0.6</text>
+<line x1="854.00" y1="120" x2="854.00" y2="780" stroke="#edf0f2" stroke-width="1"/>
+<text x="854.00" y="815" text-anchor="middle" font-size="18">0.6</text>
+<line x1="140" y1="318.00" x2="1330" y2="318.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="122" y="325.00" text-anchor="end" font-size="18">0.7</text>
+<line x1="973.00" y1="120" x2="973.00" y2="780" stroke="#edf0f2" stroke-width="1"/>
+<text x="973.00" y="815" text-anchor="middle" font-size="18">0.7</text>
+<line x1="140" y1="252.00" x2="1330" y2="252.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="122" y="259.00" text-anchor="end" font-size="18">0.8</text>
+<line x1="1092.00" y1="120" x2="1092.00" y2="780" stroke="#edf0f2" stroke-width="1"/>
+<text x="1092.00" y="815" text-anchor="middle" font-size="18">0.8</text>
+<line x1="140" y1="186.00" x2="1330" y2="186.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="122" y="193.00" text-anchor="end" font-size="18">0.9</text>
+<line x1="1211.00" y1="120" x2="1211.00" y2="780" stroke="#edf0f2" stroke-width="1"/>
+<text x="1211.00" y="815" text-anchor="middle" font-size="18">0.9</text>
+<line x1="140" y1="120.00" x2="1330" y2="120.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="122" y="127.00" text-anchor="end" font-size="18">1.0</text>
+<line x1="1330.00" y1="120" x2="1330.00" y2="780" stroke="#edf0f2" stroke-width="1"/>
+<text x="1330.00" y="815" text-anchor="middle" font-size="18">1.0</text>
+<line x1="140" y1="120" x2="140" y2="780" stroke="#17202a" stroke-width="2"/>
+<line x1="140" y1="780" x2="1330" y2="780" stroke="#17202a" stroke-width="2"/>
+<text x="735.00" y="855" text-anchor="middle" font-size="23">BEC erasure probability p</text>
+<text x="42" y="450.00" text-anchor="middle" font-size="23" transform="rotate(-90 42 450.00)">Block error probability</text>
+<polyline points="140.00,780.00 259.00,780.00 378.00,779.04 497.00,757.94 616.00,637.61 735.00,384.40 854.00,182.46 973.00,124.26 1092.00,120.05 1211.00,120.00 1330.00,120.00" fill="none" stroke="#1769aa" stroke-width="5" stroke-linejoin="round"/>
+<line x1="140.00" y1="780.00" x2="140.00" y2="780.00" stroke="#1769aa" stroke-width="2"/>
+<line x1="133.00" y1="780.00" x2="147.00" y2="780.00" stroke="#1769aa" stroke-width="2"/>
+<line x1="133.00" y1="780.00" x2="147.00" y2="780.00" stroke="#1769aa" stroke-width="2"/>
+<circle cx="140.00" cy="780.00" r="7" fill="#1769aa" stroke="white" stroke-width="2"/>
+<line x1="259.00" y1="779.97" x2="259.00" y2="780.00" stroke="#1769aa" stroke-width="2"/>
+<line x1="252.00" y1="779.97" x2="266.00" y2="779.97" stroke="#1769aa" stroke-width="2"/>
+<line x1="252.00" y1="780.00" x2="266.00" y2="780.00" stroke="#1769aa" stroke-width="2"/>
+<circle cx="259.00" cy="780.00" r="7" fill="#1769aa" stroke="white" stroke-width="2"/>
+<line x1="378.00" y1="778.87" x2="378.00" y2="779.19" stroke="#1769aa" stroke-width="2"/>
+<line x1="371.00" y1="778.87" x2="385.00" y2="778.87" stroke="#1769aa" stroke-width="2"/>
+<line x1="371.00" y1="779.19" x2="385.00" y2="779.19" stroke="#1769aa" stroke-width="2"/>
+<circle cx="378.00" cy="779.04" r="7" fill="#1769aa" stroke="white" stroke-width="2"/>
+<line x1="497.00" y1="757.20" x2="497.00" y2="758.67" stroke="#1769aa" stroke-width="2"/>
+<line x1="490.00" y1="757.20" x2="504.00" y2="757.20" stroke="#1769aa" stroke-width="2"/>
+<line x1="490.00" y1="758.67" x2="504.00" y2="758.67" stroke="#1769aa" stroke-width="2"/>
+<circle cx="497.00" cy="757.94" r="7" fill="#1769aa" stroke="white" stroke-width="2"/>
+<line x1="616.00" y1="635.92" x2="616.00" y2="639.29" stroke="#1769aa" stroke-width="2"/>
+<line x1="609.00" y1="635.92" x2="623.00" y2="635.92" stroke="#1769aa" stroke-width="2"/>
+<line x1="609.00" y1="639.29" x2="623.00" y2="639.29" stroke="#1769aa" stroke-width="2"/>
+<circle cx="616.00" cy="637.61" r="7" fill="#1769aa" stroke="white" stroke-width="2"/>
+<line x1="735.00" y1="382.39" x2="735.00" y2="386.40" stroke="#1769aa" stroke-width="2"/>
+<line x1="728.00" y1="382.39" x2="742.00" y2="382.39" stroke="#1769aa" stroke-width="2"/>
+<line x1="728.00" y1="386.40" x2="742.00" y2="386.40" stroke="#1769aa" stroke-width="2"/>
+<circle cx="735.00" cy="384.40" r="7" fill="#1769aa" stroke="white" stroke-width="2"/>
+<line x1="854.00" y1="181.28" x2="854.00" y2="183.67" stroke="#1769aa" stroke-width="2"/>
+<line x1="847.00" y1="181.28" x2="861.00" y2="181.28" stroke="#1769aa" stroke-width="2"/>
+<line x1="847.00" y1="183.67" x2="861.00" y2="183.67" stroke="#1769aa" stroke-width="2"/>
+<circle cx="854.00" cy="182.46" r="7" fill="#1769aa" stroke="white" stroke-width="2"/>
+<line x1="973.00" y1="123.94" x2="973.00" y2="124.60" stroke="#1769aa" stroke-width="2"/>
+<line x1="966.00" y1="123.94" x2="980.00" y2="123.94" stroke="#1769aa" stroke-width="2"/>
+<line x1="966.00" y1="124.60" x2="980.00" y2="124.60" stroke="#1769aa" stroke-width="2"/>
+<circle cx="973.00" cy="124.26" r="7" fill="#1769aa" stroke="white" stroke-width="2"/>
+<line x1="1092.00" y1="120.03" x2="1092.00" y2="120.10" stroke="#1769aa" stroke-width="2"/>
+<line x1="1085.00" y1="120.03" x2="1099.00" y2="120.03" stroke="#1769aa" stroke-width="2"/>
+<line x1="1085.00" y1="120.10" x2="1099.00" y2="120.10" stroke="#1769aa" stroke-width="2"/>
+<circle cx="1092.00" cy="120.05" r="7" fill="#1769aa" stroke="white" stroke-width="2"/>
+<line x1="1211.00" y1="120.00" x2="1211.00" y2="120.03" stroke="#1769aa" stroke-width="2"/>
+<line x1="1204.00" y1="120.00" x2="1218.00" y2="120.00" stroke="#1769aa" stroke-width="2"/>
+<line x1="1204.00" y1="120.03" x2="1218.00" y2="120.03" stroke="#1769aa" stroke-width="2"/>
+<circle cx="1211.00" cy="120.00" r="7" fill="#1769aa" stroke="white" stroke-width="2"/>
+<line x1="1330.00" y1="120.00" x2="1330.00" y2="120.00" stroke="#1769aa" stroke-width="2"/>
+<line x1="1323.00" y1="120.00" x2="1337.00" y2="120.00" stroke="#1769aa" stroke-width="2"/>
+<line x1="1323.00" y1="120.00" x2="1337.00" y2="120.00" stroke="#1769aa" stroke-width="2"/>
+<circle cx="1330.00" cy="120.00" r="7" fill="#1769aa" stroke="white" stroke-width="2"/>
+</svg>

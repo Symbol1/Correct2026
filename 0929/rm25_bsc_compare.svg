@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+<rect width="100%" height="100%" fill="white"/>
+<style>text { font-family: DejaVu Sans, sans-serif; fill: #17202a; }</style>
+<text x="750" y="46" text-anchor="middle" font-size="30" font-weight="bold">RM(2, 5) randomized soft decoder on BSC(p)</text>
+<text x="750" y="82" text-anchor="middle" font-size="19">1,000 checks per block; 10,000 blocks per p; paired simulation; seed 20260928</text>
+<line x1="130" y1="660.00" x2="700" y2="660.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="114" y="666.00" text-anchor="end" font-size="16">0.0</text>
+<line x1="130" y1="612.00" x2="700" y2="612.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="114" y="618.00" text-anchor="end" font-size="16">0.1</text>
+<line x1="130" y1="564.00" x2="700" y2="564.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="114" y="570.00" text-anchor="end" font-size="16">0.2</text>
+<line x1="130" y1="516.00" x2="700" y2="516.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="114" y="522.00" text-anchor="end" font-size="16">0.3</text>
+<line x1="130" y1="468.00" x2="700" y2="468.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="114" y="474.00" text-anchor="end" font-size="16">0.4</text>
+<line x1="130" y1="420.00" x2="700" y2="420.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="114" y="426.00" text-anchor="end" font-size="16">0.5</text>
+<line x1="130" y1="372.00" x2="700" y2="372.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="114" y="378.00" text-anchor="end" font-size="16">0.6</text>
+<line x1="130" y1="324.00" x2="700" y2="324.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="114" y="330.00" text-anchor="end" font-size="16">0.7</text>
+<line x1="130" y1="276.00" x2="700" y2="276.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="114" y="282.00" text-anchor="end" font-size="16">0.8</text>
+<line x1="130" y1="228.00" x2="700" y2="228.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="114" y="234.00" text-anchor="end" font-size="16">0.9</text>
+<line x1="130" y1="180.00" x2="700" y2="180.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="114" y="186.00" text-anchor="end" font-size="16">1.0</text>
+<line x1="130.00" y1="180" x2="130.00" y2="660" stroke="#edf0f2" stroke-width="1"/>
+<text x="130.00" y="692" text-anchor="middle" font-size="16">0.0</text>
+<line x1="244.00" y1="180" x2="244.00" y2="660" stroke="#edf0f2" stroke-width="1"/>
+<text x="244.00" y="692" text-anchor="middle" font-size="16">0.1</text>
+<line x1="358.00" y1="180" x2="358.00" y2="660" stroke="#edf0f2" stroke-width="1"/>
+<text x="358.00" y="692" text-anchor="middle" font-size="16">0.2</text>
+<line x1="472.00" y1="180" x2="472.00" y2="660" stroke="#edf0f2" stroke-width="1"/>
+<text x="472.00" y="692" text-anchor="middle" font-size="16">0.3</text>
+<line x1="586.00" y1="180" x2="586.00" y2="660" stroke="#edf0f2" stroke-width="1"/>
+<text x="586.00" y="692" text-anchor="middle" font-size="16">0.4</text>
+<line x1="700.00" y1="180" x2="700.00" y2="660" stroke="#edf0f2" stroke-width="1"/>
+<text x="700.00" y="692" text-anchor="middle" font-size="16">0.5</text>
+<line x1="130" y1="180" x2="130" y2="660" stroke="#17202a" stroke-width="2"/>
+<line x1="130" y1="660" x2="700" y2="660" stroke="#17202a" stroke-width="2"/>
+<text x="415.00" y="156" text-anchor="middle" font-size="23" font-weight="bold">Bit error probability</text>
+<text x="415.00" y="725" text-anchor="middle" font-size="21">BSC crossover probability p</text>
+<polyline points="130.00,660.00 187.00,650.21 244.00,621.06 301.00,579.89 358.00,546.15 415.00,532.44 472.00,515.59 529.00,492.57 586.00,468.33 643.00,444.01 700.00,420.06" fill="none" stroke="#c0392b" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="130.00" cy="660.00" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="187.00" cy="650.21" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="244.00" cy="621.06" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="301.00" cy="579.89" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="358.00" cy="546.15" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="415.00" cy="532.44" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="472.00" cy="515.59" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="529.00" cy="492.57" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="586.00" cy="468.33" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="643.00" cy="444.01" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="700.00" cy="420.06" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<polyline points="130.00,660.00 187.00,645.25 244.00,613.50 301.00,575.14 358.00,542.92 415.00,526.11 472.00,514.77 529.00,492.57 586.00,468.33 643.00,444.01 700.00,420.06" fill="none" stroke="#1769aa" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="130.00" cy="660.00" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="187.00" cy="645.25" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="244.00" cy="613.50" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="301.00" cy="575.14" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="358.00" cy="542.92" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="415.00" cy="526.11" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="472.00" cy="514.77" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="529.00" cy="492.57" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="586.00" cy="468.33" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="643.00" cy="444.01" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="700.00" cy="420.06" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<line x1="850" y1="660.00" x2="1420" y2="660.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="834" y="666.00" text-anchor="end" font-size="16">0.0</text>
+<line x1="850" y1="612.00" x2="1420" y2="612.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="834" y="618.00" text-anchor="end" font-size="16">0.1</text>
+<line x1="850" y1="564.00" x2="1420" y2="564.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="834" y="570.00" text-anchor="end" font-size="16">0.2</text>
+<line x1="850" y1="516.00" x2="1420" y2="516.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="834" y="522.00" text-anchor="end" font-size="16">0.3</text>
+<line x1="850" y1="468.00" x2="1420" y2="468.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="834" y="474.00" text-anchor="end" font-size="16">0.4</text>
+<line x1="850" y1="420.00" x2="1420" y2="420.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="834" y="426.00" text-anchor="end" font-size="16">0.5</text>
+<line x1="850" y1="372.00" x2="1420" y2="372.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="834" y="378.00" text-anchor="end" font-size="16">0.6</text>
+<line x1="850" y1="324.00" x2="1420" y2="324.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="834" y="330.00" text-anchor="end" font-size="16">0.7</text>
+<line x1="850" y1="276.00" x2="1420" y2="276.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="834" y="282.00" text-anchor="end" font-size="16">0.8</text>
+<line x1="850" y1="228.00" x2="1420" y2="228.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="834" y="234.00" text-anchor="end" font-size="16">0.9</text>
+<line x1="850" y1="180.00" x2="1420" y2="180.00" stroke="#d5d8dc" stroke-width="1"/>
+<text x="834" y="186.00" text-anchor="end" font-size="16">1.0</text>
+<line x1="850.00" y1="180" x2="850.00" y2="660" stroke="#edf0f2" stroke-width="1"/>
+<text x="850.00" y="692" text-anchor="middle" font-size="16">0.0</text>
+<line x1="964.00" y1="180" x2="964.00" y2="660" stroke="#edf0f2" stroke-width="1"/>
+<text x="964.00" y="692" text-anchor="middle" font-size="16">0.1</text>
+<line x1="1078.00" y1="180" x2="1078.00" y2="660" stroke="#edf0f2" stroke-width="1"/>
+<text x="1078.00" y="692" text-anchor="middle" font-size="16">0.2</text>
+<line x1="1192.00" y1="180" x2="1192.00" y2="660" stroke="#edf0f2" stroke-width="1"/>
+<text x="1192.00" y="692" text-anchor="middle" font-size="16">0.3</text>
+<line x1="1306.00" y1="180" x2="1306.00" y2="660" stroke="#edf0f2" stroke-width="1"/>
+<text x="1306.00" y="692" text-anchor="middle" font-size="16">0.4</text>
+<line x1="1420.00" y1="180" x2="1420.00" y2="660" stroke="#edf0f2" stroke-width="1"/>
+<text x="1420.00" y="692" text-anchor="middle" font-size="16">0.5</text>
+<line x1="850" y1="180" x2="850" y2="660" stroke="#17202a" stroke-width="2"/>
+<line x1="850" y1="660" x2="1420" y2="660" stroke="#17202a" stroke-width="2"/>
+<text x="1135.00" y="156" text-anchor="middle" font-size="23" font-weight="bold">Block error probability</text>
+<text x="1135.00" y="725" text-anchor="middle" font-size="21">BSC crossover probability p</text>
+<polyline points="850.00,660.00 907.00,580.75 964.00,473.71 1021.00,359.47 1078.00,262.32 1135.00,199.25 1192.00,180.67 1249.00,180.00 1306.00,180.00 1363.00,180.00 1420.00,180.00" fill="none" stroke="#c0392b" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="850.00" cy="660.00" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="907.00" cy="580.75" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="964.00" cy="473.71" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="1021.00" cy="359.47" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="1078.00" cy="262.32" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="1135.00" cy="199.25" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="1192.00" cy="180.67" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="1249.00" cy="180.00" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="1306.00" cy="180.00" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="1363.00" cy="180.00" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<circle cx="1420.00" cy="180.00" r="5" fill="#c0392b" stroke="white" stroke-width="1.5"/>
+<polyline points="850.00,660.00 907.00,610.03 964.00,495.60 1021.00,364.37 1078.00,263.95 1135.00,202.37 1192.00,182.02 1249.00,180.00 1306.00,180.00 1363.00,180.00 1420.00,180.00" fill="none" stroke="#1769aa" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="850.00" cy="660.00" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="907.00" cy="610.03" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="964.00" cy="495.60" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="1021.00" cy="364.37" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="1078.00" cy="263.95" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="1135.00" cy="202.37" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="1192.00" cy="182.02" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="1249.00" cy="180.00" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="1306.00" cy="180.00" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="1363.00" cy="180.00" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<circle cx="1420.00" cy="180.00" r="5" fill="#1769aa" stroke="white" stroke-width="1.5"/>
+<line x1="560" y1="112" x2="605" y2="112" stroke="#c0392b" stroke-width="5"/>
+<text x="618" y="119" font-size="18">Heuristic</text>
+<line x1="860" y1="112" x2="905" y2="112" stroke="#1769aa" stroke-width="5"/>
+<text x="918" y="119" font-size="18">BP-style combination</text>
+</svg>
