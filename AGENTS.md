@@ -32,6 +32,8 @@
   - **不要再把語法配色改成 sage。** 缺少 `metadata.vscode.languageId` 同樣算違規：VS Code 會退回 kernelspec 的 `"language": "sage"`，結果語法配色消失。因此每個 code cell（包含新增的 cell）都必須明確寫上 `"metadata": {"vscode": {"languageId": "python"}}`。
   - 不要修改 `metadata.kernelspec`（保留 `"language": "sage"`、`"name": "sagemath"`），也不要把 `language_info.name` 改成 `sage`。
   - 每次編輯 `.ipynb` 後都要跑 `python3 fix_languageid.py`（不加參數時處理資料夾內所有講義，也可以只指定檔名），它會把缺漏或為 `sage` 的 `languageId` 補成 `python`；只檢查、不修改時加 `--check`。VS Code 存檔時會拿掉 `languageId`，所以使用者在 VS Code 編輯過的講義，commit 前也要再跑一次。三門課用同一份 `fix_languageid.py`、`strip_blank_lines.py`、`display_widths.py`、`line_widths.py`，修改時三份一起改。
+  - Sage 的 preparser 會把 `^` 換成次方 `**`（`^=` 也是），所以 code cell 裡不要用 `^` 表示 XOR，改寫成 `(a + b) % 2`；也不要用 Sage 專用的 `^^`，因為 cell 標記成 `python`。1130 的 polar encoder 曾因此全部算錯，而用一般 Python 或 numpy 測試時看不出來。
+  - 新寫或修改的 code cells 要在 SageMath kernel 中實際執行，例如 `sage -python -m nbconvert --to notebook --execute --ExecutePreprocessor.kernel_name=SageMath-10.10 --allow-errors --output <暫存檔> <講義>`（kernel 名稱見 `/usr/local/share/jupyter/kernels/`）。輸出寫到暫存檔，不要覆蓋講義；檢查有沒有 error，並打開畫出的圖確認圖例、座標軸標籤沒有遮住或被切掉。
 - LaTeX 原始碼要加上適當空格，讓公式容易閱讀：二元運算子與關係符號（如 `+`、`-`、`=`、`\in`、`\le`）兩側留空格，逗號後留空格。例如 `s_b(t) = A\cos(2\pi f_ct + \pi b),\qquad b \in \{0, 1\}`。上下標內例外，見下一條。
 - 上標與下標（`_{...}`、`^{...}`）內的原始碼不加空格：TeX 排版上下標時本來就省略運算子、關係符號、逗號周圍的間距，原始碼也比照呈現效果。例如寫 `a_{n+1}`、`(z - a)^{n+1}`、`\sum_{n=0}^\infty`、`\oint_{|z-a|=r}`、`\sum_{n\ge1}`、`\lim_{z\to a}`，不寫 `a_{n + 1}`、`\sum_{n = 0}`、`\oint_{|z - a| = r}`、`\sum_{n \ge 1}`。`\ge`、`\to` 等控制序列前面不加空格；後面只在接字母時保留一個空格，因為 TeX 需要它來結束控制序列名稱（如 `\to a`、`\ge N`）；接數字或其他符號時不加（如 `\ge1`、`\to0`、`\to\infty`）。`\text{...}` 內的文字照常空格。上下標內也不加 `\,` 等間距指令，例如寫 `q^{\max(u-d+1,0)}`。積分的微分符號前的 `\,` 不受這項規則限制，例如 `e^{-\int P\,dx}`。上下標裡並列兩組條件時，用 `\ ` 隔開比較好讀，例如 `_{1\le i\le n,\ 0\le j\le n-k-1}`。上下標以外的部分仍依上一條加空格。
 - 行內公式與前後文字的間距依上述混排規則處理；`$` 與公式內容之間不加空格。
@@ -51,4 +53,14 @@
 - 英文標題大小寫依層級統一：`# GOOD JOB`（全大寫）、`## Good Job`（Title Case）、`### Good job`（Sentence case，以下層級亦同）。Title Case 的冠詞、連接詞、介系詞通常小寫，標題開頭、結尾、冒號後開頭除外；Sentence case 保留專有名詞與縮寫的慣用大小寫。數學公式、程式碼、連結網址保持原樣。
 - LaTeX 數字的千分位分隔符號使用 `{,}`，括號內不加空格，例如 `201{,}000`；一般列舉項目或參數之間的逗號仍依原規則在逗號後留空格。
 - 新建 `.ipynb` 講義時，在講義末尾預留兩個作業 section，依序為 `## 週五作業` 與 `### 週一作業`，之後再補上實際題目內容。
+- 畫圖時，連續的量（例如 $p$、$\epsilon$、$\sigma$）當橫軸；整數的參數（例如迭代次數 $\ell$、長度 $n$）不要當橫軸，改成每個值畫一條曲線，用 legend 標示。例如 1123 的 population dynamics 畫 $B(\mathsf a_\ell)$ 對 $p$，每個 $\ell$ 一條曲線。例外是畫隨機過程的軌跡：每條曲線是一次模擬（sample path）時，曲線已經用來區分樣本，迭代次數就放在橫軸，例如 1109 的十次模擬與期望值。
+- 作業要學生畫圖時，照往例附上答案的圖，寫成「……應該長得像下圖，但請自己用程式畫一張」，例如 1109 的 Elias 階梯圖、1123 的 AWGN mixing density。圖沒辦法抄，所以直接給。圖檔用 SageMath 畫，依上面的圖檔規則放在講義日期的資料夾。
 - 定義 LaTeX 巨集時使用 `\def`，不使用 `\newcommand` 或 `\renewcommand`，例如 `\def\FF{\mathbb F}`。
+
+# 待辦（2026-11-23 記下，處理完就刪掉該項）
+
+- commit 1109.ipynb、1123.ipynb、1130.ipynb、`1123/` 與 AGENTS.md；commit 前先跑 `python3 fix_languageid.py`。
+- 問使用者：本檔「Notebook 格式」中新增的兩條 Sage 規則（`^` 會被換成次方、要在 SageMath kernel 中實際執行），要不要也加進 Complex2026 與 Differ2026 的 AGENTS.md。
+- 1130：請使用者核對 5G NR 的細節（上行最長 $N = 1{,}024$、下行最長 $512$、所有長度共用一條長度 $1{,}024$ 的可靠度排序、list size 常用 $8$），以及文獻年份（Arıkan–Telatar 2009、Tal–Vardy 2013 與 2015、Kudekar 等人 2017、Abbe–Sandon 2023、Arıkan 的 PAC codes 2019）。
+- 1130：`## 週五作業` 與 `### 週一作業` 還是空的。可能的題目：手算 $N = 8$ 的 bit channels、用 SC 解一個小例子、證明 $G_N$ 中 $\operatorname{wt}(i) \ge m - r$ 的 rows 生成 $\mathrm{RM}(r, m)$。
+- 問使用者：1130 要不要像 1116 一樣把 SageMath 的執行結果存進講義（1123 使用者已經自己 run all）。
